@@ -1,9 +1,9 @@
 report 52100 "ADT Standard Statement Custom"
 {
-    WordLayout = './StandardStatement.docx';
     RDLCLayout = './StandardStatement.rdl';
-    Caption = 'Customer Statement';
-    DefaultLayout = Word;
+    Caption = 'Customer Statement Adia';
+    ApplicationArea = all;
+    UsageCategory = ReportsAndAnalysis;
 
     dataset
     {
