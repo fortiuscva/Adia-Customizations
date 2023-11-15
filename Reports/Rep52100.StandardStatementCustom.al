@@ -151,7 +151,7 @@ report 52100 "ADT Standard Statement Custom"
                 column(DocNo_DtldCustLedgEntriesCaption; DtldCustLedgEntries.FieldCaption("Document No."))
                 {
                 }
-                column(Desc_CustLedgEntry2Caption; CustLedgEntry2.FieldCaption(Description))
+                column(Desc_CustLedgEntry2Caption; 'Customer PO')
                 {
                 }
                 column(DueDate_CustLedgEntry2Caption; DueDate_CustLedgEntry2CaptionLbl)
@@ -182,6 +182,9 @@ report 52100 "ADT Standard Statement Custom"
                 {
                 }
                 column(CompanyLegalOffice_Lbl; CompanyInfo.GetLegalOfficeLbl())
+                {
+                }
+                column(Total_Caption; Total_CaptionLbl)
                 {
                 }
                 dataitem(CurrencyLoop; "Integer")
@@ -276,7 +279,8 @@ report 52100 "ADT Standard Statement Custom"
                                             if Skip then
                                                 CurrReport.Skip();
                                             YourReference := CustLedgerEntry."Your Reference";
-                                            Description := CustLedgerEntry.Description;
+                                            //Description := CustLedgerEntry.Description;
+                                            Description := CustLedgerEntry."External Document No.";
                                             DueDate := CustLedgerEntry."Due Date";
                                             CustLedgerEntry.SetRange("Date Filter", 0D, EndDate);
                                             CustLedgerEntry.CalcFields("Remaining Amount");
@@ -357,9 +361,7 @@ report 52100 "ADT Standard Statement Custom"
                         column(CurrencyCode3_CustLedgEntryFooter; CurrencyCode3)
                         {
                         }
-                        column(Total_Caption; Total_CaptionLbl)
-                        {
-                        }
+
                         column(CustBalance_CustLedgEntryHdrFooter; CustBalance)
                         {
                             AutoFormatExpression = TempCurrency2.Code;
@@ -386,7 +388,7 @@ report 52100 "ADT Standard Statement Custom"
                         column(DocNo_DtldCustLedgEntriesCaption2; DtldCustLedgEntries.FieldCaption("Document No."))
                         {
                         }
-                        column(Desc_CustLedgEntry2Caption2; CustLedgEntry2.FieldCaption(Description))
+                        column(Desc_CustLedgEntry2Caption2; 'Customer PO')
                         {
                         }
                         column(DueDate_CustLedgEntry2Caption2; DueDate_CustLedgEntry2CaptionLbl)
