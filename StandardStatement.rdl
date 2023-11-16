@@ -19,7 +19,7 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>17.93863cm</Width>
+                  <Width>18.07509cm</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -1111,7 +1111,7 @@ Cstr(Fields!CustBalanceCaption.Value)
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>17.93863cm</Width>
+                                    <Width>18.07509cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
@@ -1129,25 +1129,22 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                       <Width>2.04cm</Width>
                                                     </TablixColumn>
                                                     <TablixColumn>
-                                                      <Width>1.98768cm</Width>
+                                                      <Width>2.83435cm</Width>
                                                     </TablixColumn>
                                                     <TablixColumn>
                                                       <Width>4.20624cm</Width>
                                                     </TablixColumn>
                                                     <TablixColumn>
-                                                      <Width>1.98768cm</Width>
+                                                      <Width>2.53801cm</Width>
                                                     </TablixColumn>
                                                     <TablixColumn>
-                                                      <Width>1.7749cm</Width>
+                                                      <Width>1.38764cm</Width>
                                                     </TablixColumn>
                                                     <TablixColumn>
-                                                      <Width>1.90023cm</Width>
+                                                      <Width>2.73421cm</Width>
                                                     </TablixColumn>
                                                     <TablixColumn>
-                                                      <Width>2.4052cm</Width>
-                                                    </TablixColumn>
-                                                    <TablixColumn>
-                                                      <Width>1.6367cm</Width>
+                                                      <Width>2.31669cm</Width>
                                                     </TablixColumn>
                                                   </TablixColumns>
                                                   <TablixRows>
@@ -1177,6 +1174,9 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                               </Paragraphs>
                                                               <rd:DefaultName>textbox4</rd:DefaultName>
                                                               <ZIndex>30</ZIndex>
+                                                              <Visibility>
+                                                                <Hidden>true</Hidden>
+                                                              </Visibility>
                                                               <Style>
                                                                 <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingRight>5pt</PaddingRight>
@@ -1318,33 +1318,6 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                               <Style>
                                                                 <PaddingLeft>5pt</PaddingLeft>
                                                                 <PaddingRight>5pt</PaddingRight>
-                                                              </Style>
-                                                            </Textbox>
-                                                          </CellContents>
-                                                        </TablixCell>
-                                                        <TablixCell>
-                                                          <CellContents>
-                                                            <Textbox Name="textbox17">
-                                                              <KeepTogether>true</KeepTogether>
-                                                              <Paragraphs>
-                                                                <Paragraph>
-                                                                  <TextRuns>
-                                                                    <TextRun>
-                                                                      <Value />
-                                                                      <Style>
-                                                                        <FontFamily>Segoe UI</FontFamily>
-                                                                        <FontSize>8pt</FontSize>
-                                                                        <FontWeight>Bold</FontWeight>
-                                                                      </Style>
-                                                                    </TextRun>
-                                                                  </TextRuns>
-                                                                  <Style />
-                                                                </Paragraph>
-                                                              </Paragraphs>
-                                                              <rd:DefaultName>textbox17</rd:DefaultName>
-                                                              <ZIndex>24</ZIndex>
-                                                              <Style>
-                                                                <PaddingLeft>5pt</PaddingLeft>
                                                               </Style>
                                                             </Textbox>
                                                           </CellContents>
@@ -1535,36 +1508,6 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                               <Style>
                                                                 <PaddingLeft>5pt</PaddingLeft>
                                                                 <PaddingRight>5pt</PaddingRight>
-                                                              </Style>
-                                                            </Textbox>
-                                                          </CellContents>
-                                                        </TablixCell>
-                                                        <TablixCell>
-                                                          <CellContents>
-                                                            <Textbox Name="textbox45">
-                                                              <KeepTogether>true</KeepTogether>
-                                                              <Paragraphs>
-                                                                <Paragraph>
-                                                                  <TextRuns>
-                                                                    <TextRun>
-                                                                      <Value>=Fields!StartBalance.Value</Value>
-                                                                      <Style>
-                                                                        <FontFamily>Segoe UI</FontFamily>
-                                                                        <FontSize>8pt</FontSize>
-                                                                        <Format>=Fields!StartBalanceFormat.Value</Format>
-                                                                      </Style>
-                                                                    </TextRun>
-                                                                  </TextRuns>
-                                                                  <Style>
-                                                                    <TextAlign>Right</TextAlign>
-                                                                  </Style>
-                                                                </Paragraph>
-                                                              </Paragraphs>
-                                                              <rd:DefaultName>textbox45</rd:DefaultName>
-                                                              <ZIndex>16</ZIndex>
-                                                              <Style>
-                                                                <VerticalAlign>Middle</VerticalAlign>
-                                                                <PaddingLeft>5pt</PaddingLeft>
                                                               </Style>
                                                             </Textbox>
                                                           </CellContents>
@@ -1793,36 +1736,6 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                             </Textbox>
                                                           </CellContents>
                                                         </TablixCell>
-                                                        <TablixCell>
-                                                          <CellContents>
-                                                            <Textbox Name="textbox88">
-                                                              <CanGrow>true</CanGrow>
-                                                              <KeepTogether>true</KeepTogether>
-                                                              <Paragraphs>
-                                                                <Paragraph>
-                                                                  <TextRuns>
-                                                                    <TextRun>
-                                                                      <Value>=Fields!CustBalance.Value</Value>
-                                                                      <Style>
-                                                                        <FontFamily>Segoe UI</FontFamily>
-                                                                        <FontSize>8pt</FontSize>
-                                                                        <Format>=Fields!CustBalanceFormat.Value</Format>
-                                                                      </Style>
-                                                                    </TextRun>
-                                                                  </TextRuns>
-                                                                  <Style>
-                                                                    <TextAlign>Right</TextAlign>
-                                                                  </Style>
-                                                                </Paragraph>
-                                                              </Paragraphs>
-                                                              <rd:DefaultName>textbox88</rd:DefaultName>
-                                                              <Style>
-                                                                <VerticalAlign>Middle</VerticalAlign>
-                                                                <PaddingLeft>5pt</PaddingLeft>
-                                                              </Style>
-                                                            </Textbox>
-                                                          </CellContents>
-                                                        </TablixCell>
                                                       </TablixCells>
                                                     </TablixRow>
                                                     <TablixRow>
@@ -2040,42 +1953,6 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                                 <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>5pt</PaddingLeft>
                                                                 <PaddingRight>5pt</PaddingRight>
-                                                              </Style>
-                                                            </Textbox>
-                                                          </CellContents>
-                                                        </TablixCell>
-                                                        <TablixCell>
-                                                          <CellContents>
-                                                            <Textbox Name="Textbox75">
-                                                              <CanGrow>true</CanGrow>
-                                                              <KeepTogether>true</KeepTogether>
-                                                              <Paragraphs>
-                                                                <Paragraph>
-                                                                  <TextRuns>
-                                                                    <TextRun>
-                                                                      <Value />
-                                                                      <Style>
-                                                                        <FontFamily>Segoe UI</FontFamily>
-                                                                        <FontSize>8pt</FontSize>
-                                                                        <FontWeight>Bold</FontWeight>
-                                                                      </Style>
-                                                                    </TextRun>
-                                                                  </TextRuns>
-                                                                  <Style>
-                                                                    <TextAlign>Right</TextAlign>
-                                                                  </Style>
-                                                                </Paragraph>
-                                                              </Paragraphs>
-                                                              <rd:DefaultName>Textbox75</rd:DefaultName>
-                                                              <Style>
-                                                                <Border>
-                                                                  <Style>None</Style>
-                                                                </Border>
-                                                                <BottomBorder>
-                                                                  <Style>Solid</Style>
-                                                                </BottomBorder>
-                                                                <VerticalAlign>Middle</VerticalAlign>
-                                                                <PaddingLeft>5pt</PaddingLeft>
                                                               </Style>
                                                             </Textbox>
                                                           </CellContents>
@@ -2301,36 +2178,6 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                             </Textbox>
                                                           </CellContents>
                                                         </TablixCell>
-                                                        <TablixCell>
-                                                          <CellContents>
-                                                            <Textbox Name="Textbox90">
-                                                              <CanGrow>true</CanGrow>
-                                                              <KeepTogether>true</KeepTogether>
-                                                              <Paragraphs>
-                                                                <Paragraph>
-                                                                  <TextRuns>
-                                                                    <TextRun>
-                                                                      <Value />
-                                                                      <Style>
-                                                                        <FontFamily>Segoe UI</FontFamily>
-                                                                        <FontSize>8pt</FontSize>
-                                                                        <FontWeight>Bold</FontWeight>
-                                                                      </Style>
-                                                                    </TextRun>
-                                                                  </TextRuns>
-                                                                  <Style>
-                                                                    <TextAlign>Right</TextAlign>
-                                                                  </Style>
-                                                                </Paragraph>
-                                                              </Paragraphs>
-                                                              <rd:DefaultName>Textbox90</rd:DefaultName>
-                                                              <Style>
-                                                                <VerticalAlign>Middle</VerticalAlign>
-                                                                <PaddingLeft>5pt</PaddingLeft>
-                                                              </Style>
-                                                            </Textbox>
-                                                          </CellContents>
-                                                        </TablixCell>
                                                       </TablixCells>
                                                     </TablixRow>
                                                     <TablixRow>
@@ -2498,7 +2345,7 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                                 <Paragraph>
                                                                   <TextRuns>
                                                                     <TextRun>
-                                                                      <Value>=Last(Fields!Total_Caption3.Value) &amp; " " &amp; Last(Fields!CurrencyCode3.Value)</Value>
+                                                                      <Value>=Fields!Total_Caption.Value</Value>
                                                                       <Style>
                                                                         <FontFamily>Segoe UI</FontFamily>
                                                                         <FontSize>8pt</FontSize>
@@ -2549,38 +2396,7 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                               <Style>
                                                                 <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>5pt</PaddingLeft>
-                                                              </Style>
-                                                            </Textbox>
-                                                          </CellContents>
-                                                        </TablixCell>
-                                                        <TablixCell>
-                                                          <CellContents>
-                                                            <Textbox Name="textbox30">
-                                                              <CanGrow>true</CanGrow>
-                                                              <KeepTogether>true</KeepTogether>
-                                                              <Paragraphs>
-                                                                <Paragraph>
-                                                                  <TextRuns>
-                                                                    <TextRun>
-                                                                      <Value>=LAST(Fields!CustBalance_CustLedgEntryHdr.Value)</Value>
-                                                                      <Style>
-                                                                        <FontFamily>Segoe UI</FontFamily>
-                                                                        <FontSize>8pt</FontSize>
-                                                                        <FontWeight>Bold</FontWeight>
-                                                                        <Format>=LAST(Fields!CustBalance_CustLedgEntryHdrFormat.Value)</Format>
-                                                                      </Style>
-                                                                    </TextRun>
-                                                                  </TextRuns>
-                                                                  <Style>
-                                                                    <TextAlign>Right</TextAlign>
-                                                                  </Style>
-                                                                </Paragraph>
-                                                              </Paragraphs>
-                                                              <rd:DefaultName>textbox30</rd:DefaultName>
-                                                              <ZIndex>8</ZIndex>
-                                                              <Style>
-                                                                <VerticalAlign>Middle</VerticalAlign>
-                                                                <PaddingLeft>5pt</PaddingLeft>
+                                                                <PaddingRight>5pt</PaddingRight>
                                                               </Style>
                                                             </Textbox>
                                                           </CellContents>
@@ -2598,11 +2414,6 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                     <TablixMember />
                                                     <TablixMember />
                                                     <TablixMember />
-                                                    <TablixMember>
-                                                      <Visibility>
-                                                        <Hidden>true</Hidden>
-                                                      </Visibility>
-                                                    </TablixMember>
                                                   </TablixMembers>
                                                 </TablixColumnHierarchy>
                                                 <TablixRowHierarchy>
@@ -2621,18 +2432,14 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                           <TablixMembers>
                                                             <TablixMember>
                                                               <Visibility>
-                                                                <Hidden>=IIF((Fields!DocNo_DtldCustLedgEntries.Value="") OR (Fields!PrintLine.Value=FALSE AND Fields!DtldCustLedgEntryType.Value="2") OR NOT Fields!IsNewCustCurrencyGroup.Value,TRUE,FALSE)</Hidden>
+                                                                <Hidden>true</Hidden>
                                                               </Visibility>
-                                                              <KeepWithGroup>After</KeepWithGroup>
-                                                              <RepeatOnNewPage>true</RepeatOnNewPage>
                                                               <KeepTogether>true</KeepTogether>
                                                             </TablixMember>
                                                             <TablixMember>
                                                               <Visibility>
-                                                                <Hidden>=IIF((Fields!DocNo_DtldCustLedgEntries.Value="") OR (Fields!PrintLine.Value=FALSE AND Fields!DtldCustLedgEntryType.Value="2") OR NOT Fields!IsNewCustCurrencyGroup.Value,TRUE,FALSE)</Hidden>
+                                                                <Hidden>true</Hidden>
                                                               </Visibility>
-                                                              <KeepWithGroup>After</KeepWithGroup>
-                                                              <RepeatOnNewPage>true</RepeatOnNewPage>
                                                               <KeepTogether>true</KeepTogether>
                                                             </TablixMember>
                                                             <TablixMember>
@@ -2669,7 +2476,7 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                   </TablixMembers>
                                                 </TablixRowHierarchy>
                                                 <Height>1.76388cm</Height>
-                                                <Width>17.93863cm</Width>
+                                                <Width>18.05714cm</Width>
                                                 <Style />
                                               </Tablix>
                                               <Tablix Name="table2">
@@ -2679,19 +2486,19 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                       <Width>2.04cm</Width>
                                                     </TablixColumn>
                                                     <TablixColumn>
-                                                      <Width>1.98768cm</Width>
+                                                      <Width>2.83435cm</Width>
                                                     </TablixColumn>
                                                     <TablixColumn>
                                                       <Width>4.20624cm</Width>
                                                     </TablixColumn>
                                                     <TablixColumn>
-                                                      <Width>1.98768cm</Width>
+                                                      <Width>2.53801cm</Width>
                                                     </TablixColumn>
                                                     <TablixColumn>
-                                                      <Width>1.7749cm</Width>
+                                                      <Width>1.38764cm</Width>
                                                     </TablixColumn>
                                                     <TablixColumn>
-                                                      <Width>1.97078cm</Width>
+                                                      <Width>2.73421cm</Width>
                                                     </TablixColumn>
                                                     <TablixColumn>
                                                       <Width>2.33464cm</Width>
@@ -3688,6 +3495,7 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                               <Style>
                                                                 <VerticalAlign>Middle</VerticalAlign>
                                                                 <PaddingLeft>5pt</PaddingLeft>
+                                                                <PaddingRight>5pt</PaddingRight>
                                                               </Style>
                                                             </Textbox>
                                                           </CellContents>
@@ -3765,7 +3573,7 @@ Cstr(Fields!CustBalanceCaption.Value)
                                                 </Filters>
                                                 <Top>1.80947cm</Top>
                                                 <Height>1.4111cm</Height>
-                                                <Width>16.30192cm</Width>
+                                                <Width>18.07509cm</Width>
                                                 <ZIndex>1</ZIndex>
                                                 <Visibility>
                                                   <Hidden>=IIF(Fields!CustNo_CustLedgEntry2.Value="",TRUE,FALSE) OR IIF(Fields!PrintEntriesDue.Value=FALSE,TRUE,FALSE)</Hidden>
@@ -3809,7 +3617,7 @@ Cstr(Fields!CustBalanceCaption.Value)
                               <DataSetName>DataSet_Result</DataSetName>
                               <Top>0.03171cm</Top>
                               <Height>3.22057cm</Height>
-                              <Width>17.93863cm</Width>
+                              <Width>18.07509cm</Width>
                               <ZIndex>2</ZIndex>
                               <Style />
                             </Tablix>
@@ -3847,18 +3655,20 @@ Cstr(Fields!CustBalanceCaption.Value)
             <PageBreak>
               <BreakLocation>End</BreakLocation>
             </PageBreak>
+            <Top>0in</Top>
+            <Left>0.00281in</Left>
             <Height>5.86059cm</Height>
-            <Width>17.93863cm</Width>
+            <Width>18.07509cm</Width>
             <Style />
           </Tablix>
         </ReportItems>
         <Height>2.30732in</Height>
         <Style />
       </Body>
-      <Width>18.0475cm</Width>
+      <Width>18.08223cm</Width>
       <Page>
         <PageHeader>
-          <Height>4.18764in</Height>
+          <Height>5.16958in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -3878,7 +3688,7 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>190.50554pt</Top>
+              <Top>237.00554pt</Top>
               <Left>0.00007cm</Left>
               <Height>11pt</Height>
               <Width>3.13051cm</Width>
@@ -3902,7 +3712,7 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>7.93812cm</Top>
+              <Top>9.57854cm</Top>
               <Left>0.00007cm</Left>
               <Height>11pt</Height>
               <Width>3.13051cm</Width>
@@ -3927,7 +3737,7 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>7.54687cm</Top>
+              <Top>9.18729cm</Top>
               <Left>0.00007cm</Left>
               <Height>11pt</Height>
               <Width>3.13051cm</Width>
@@ -3952,111 +3762,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>179.0555pt</Top>
+              <Top>225.5555pt</Top>
               <Left>0.00007cm</Left>
               <Height>11pt</Height>
               <Width>3.13051cm</Width>
               <ZIndex>3</ZIndex>
-              <Style>
-                <VerticalAlign>Middle</VerticalAlign>
-              </Style>
-            </Textbox>
-            <Textbox Name="BankAccNo_CompanyInfoCaption11">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Code.GetData(38,1)</Value>
-                      <Style>
-                        <FontFamily>Segoe UI</FontFamily>
-                        <FontSize>8pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <Top>3.28834in</Top>
-              <Left>11.7318cm</Left>
-              <Height>11pt</Height>
-              <Width>3.02467cm</Width>
-              <ZIndex>4</ZIndex>
-              <Style>
-                <VerticalAlign>Middle</VerticalAlign>
-              </Style>
-            </Textbox>
-            <Textbox Name="BankName_CompanyInfoCaption11">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Code.GetData(39,1)</Value>
-                      <Style>
-                        <FontFamily>Segoe UI</FontFamily>
-                        <FontSize>8pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <Top>7.95433cm</Top>
-              <Left>11.7318cm</Left>
-              <Height>11pt</Height>
-              <Width>3.02467cm</Width>
-              <ZIndex>5</ZIndex>
-              <Style>
-                <VerticalAlign>Middle</VerticalAlign>
-              </Style>
-            </Textbox>
-            <Textbox Name="GiroNo_CompanyInfoCaption11">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Code.GetData(40,1)</Value>
-                      <Style>
-                        <FontFamily>Segoe UI</FontFamily>
-                        <FontSize>8pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <Top>7.5525cm</Top>
-              <Left>11.7318cm</Left>
-              <Height>11pt</Height>
-              <Width>3.02467cm</Width>
-              <ZIndex>6</ZIndex>
-              <Style>
-                <VerticalAlign>Middle</VerticalAlign>
-              </Style>
-            </Textbox>
-            <Textbox Name="VATRegNo_CompanyInfoCaption11">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Code.GetData(41,1)</Value>
-                      <Style>
-                        <FontFamily>Segoe UI</FontFamily>
-                        <FontSize>8pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <Top>7.14537cm</Top>
-              <Left>11.7318cm</Left>
-              <Height>11pt</Height>
-              <Width>3.02467cm</Width>
-              <ZIndex>7</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4077,11 +3787,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>5.9025cm</Top>
-              <Left>11.7318cm</Left>
+              <Top>7.52175cm</Top>
+              <Left>10.73697cm</Left>
               <Height>11pt</Height>
-              <Width>3.02467cm</Width>
-              <ZIndex>8</ZIndex>
+              <Width>2.2693cm</Width>
+              <ZIndex>4</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4105,10 +3815,10 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>1.77271cm</Top>
+              <Top>3.41313cm</Top>
               <Height>20pt</Height>
               <Width>17.93147cm</Width>
-              <ZIndex>9</ZIndex>
+              <ZIndex>5</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4131,11 +3841,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>5.4795cm</Top>
-              <Left>11.7318cm</Left>
+              <Top>7.11992cm</Top>
+              <Left>10.73697cm</Left>
               <Height>11pt</Height>
-              <Width>6.19252cm</Width>
-              <ZIndex>10</ZIndex>
+              <Width>7.18735cm</Width>
+              <ZIndex>6</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4158,11 +3868,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>5.0565cm</Top>
-              <Left>11.7318cm</Left>
+              <Top>6.69692cm</Top>
+              <Left>10.73697cm</Left>
               <Height>11pt</Height>
-              <Width>6.19252cm</Width>
-              <ZIndex>11</ZIndex>
+              <Width>7.18735cm</Width>
+              <ZIndex>7</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4183,11 +3893,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>5.47354cm</Top>
+              <Top>7.11396cm</Top>
               <Left>0.00007cm</Left>
               <Height>11pt</Height>
-              <Width>11.70697cm</Width>
-              <ZIndex>12</ZIndex>
+              <Width>10.63051cm</Width>
+              <ZIndex>8</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4208,11 +3918,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>5.05054cm</Top>
+              <Top>6.69096cm</Top>
               <Left>0.00007cm</Left>
               <Height>11pt</Height>
-              <Width>11.70697cm</Width>
-              <ZIndex>13</ZIndex>
+              <Width>10.63051cm</Width>
+              <ZIndex>9</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4236,11 +3946,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>190.50554pt</Top>
+              <Top>237.00554pt</Top>
               <Left>3.20113cm</Left>
               <Height>11pt</Height>
-              <Width>8.5059cm</Width>
-              <ZIndex>14</ZIndex>
+              <Width>7.42566cm</Width>
+              <ZIndex>10</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4264,11 +3974,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>7.93812cm</Top>
+              <Top>9.57854cm</Top>
               <Left>3.20113cm</Left>
               <Height>11pt</Height>
-              <Width>8.5059cm</Width>
-              <ZIndex>15</ZIndex>
+              <Width>7.42566cm</Width>
+              <ZIndex>11</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4292,11 +4002,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>7.54687cm</Top>
+              <Top>9.18729cm</Top>
               <Left>3.20113cm</Left>
               <Height>11pt</Height>
-              <Width>8.5059cm</Width>
-              <ZIndex>16</ZIndex>
+              <Width>7.42566cm</Width>
+              <ZIndex>12</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4319,119 +4029,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>179.0555pt</Top>
+              <Top>225.5555pt</Top>
               <Left>3.20113cm</Left>
               <Height>11pt</Height>
-              <Width>8.5059cm</Width>
-              <ZIndex>17</ZIndex>
-              <Style>
-                <VerticalAlign>Middle</VerticalAlign>
-              </Style>
-            </Textbox>
-            <Textbox Name="BankAccNo_CompanyInfo11">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Code.GetData(29,1)</Value>
-                      <Style>
-                        <FontFamily>Segoe UI</FontFamily>
-                        <FontSize>8pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <Top>3.28834in</Top>
-              <Left>14.75645cm</Left>
-              <Height>11pt</Height>
-              <Width>3.16787cm</Width>
-              <ZIndex>18</ZIndex>
-              <Style>
-                <VerticalAlign>Middle</VerticalAlign>
-              </Style>
-            </Textbox>
-            <Textbox Name="BankName_CompanyInfo11">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Code.GetData(28,1)</Value>
-                      <Style>
-                        <FontFamily>Segoe UI</FontFamily>
-                        <FontSize>8pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <Top>7.95433cm</Top>
-              <Left>14.75645cm</Left>
-              <Height>11pt</Height>
-              <Width>3.16787cm</Width>
-              <ZIndex>19</ZIndex>
-              <Style>
-                <VerticalAlign>Middle</VerticalAlign>
-              </Style>
-            </Textbox>
-            <Textbox Name="GiroNo_CompanyInfo11">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Code.GetData(27,1)</Value>
-                      <Style>
-                        <FontFamily>Segoe UI</FontFamily>
-                        <FontSize>8pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <Top>7.5525cm</Top>
-              <Left>14.75645cm</Left>
-              <Height>11pt</Height>
-              <Width>3.16787cm</Width>
-              <ZIndex>20</ZIndex>
-              <Style>
-                <VerticalAlign>Middle</VerticalAlign>
-              </Style>
-            </Textbox>
-            <Textbox Name="VATRegNo_CompanyInfo11">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Code.GetData(26,1)</Value>
-                      <Style>
-                        <FontFamily>Segoe UI</FontFamily>
-                        <FontSize>8pt</FontSize>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <Top>7.14537cm</Top>
-              <Left>14.75645cm</Left>
-              <Height>11pt</Height>
-              <Width>3.16787cm</Width>
-              <ZIndex>21</ZIndex>
+              <Width>7.42566cm</Width>
+              <ZIndex>13</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4452,11 +4054,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>4.62754cm</Top>
+              <Top>6.26796cm</Top>
               <Left>0.00007cm</Left>
               <Height>11pt</Height>
-              <Width>11.70697cm</Width>
-              <ZIndex>22</ZIndex>
+              <Width>10.63051cm</Width>
+              <ZIndex>14</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4479,11 +4081,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>5.9025cm</Top>
-              <Left>14.75645cm</Left>
+              <Top>7.54292cm</Top>
+              <Left>13.00624cm</Left>
               <Height>11pt</Height>
-              <Width>3.16787cm</Width>
-              <ZIndex>23</ZIndex>
+              <Width>4.91808cm</Width>
+              <ZIndex>15</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4504,11 +4106,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>4.20454cm</Top>
+              <Top>5.84496cm</Top>
               <Left>0.00007cm</Left>
               <Height>11pt</Height>
-              <Width>11.70697cm</Width>
-              <ZIndex>24</ZIndex>
+              <Width>10.63051cm</Width>
+              <ZIndex>16</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4531,11 +4133,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>4.6335cm</Top>
-              <Left>11.7318cm</Left>
+              <Top>6.27392cm</Top>
+              <Left>10.73697cm</Left>
               <Height>11pt</Height>
-              <Width>6.19252cm</Width>
-              <ZIndex>25</ZIndex>
+              <Width>7.18735cm</Width>
+              <ZIndex>17</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4556,11 +4158,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>3.78154cm</Top>
+              <Top>5.42196cm</Top>
               <Left>0.00007cm</Left>
               <Height>11pt</Height>
-              <Width>11.70697cm</Width>
-              <ZIndex>26</ZIndex>
+              <Width>10.63051cm</Width>
+              <ZIndex>18</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4583,11 +4185,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>4.2105cm</Top>
-              <Left>11.7318cm</Left>
+              <Top>5.85092cm</Top>
+              <Left>10.73697cm</Left>
               <Height>11pt</Height>
-              <Width>6.19252cm</Width>
-              <ZIndex>27</ZIndex>
+              <Width>7.18735cm</Width>
+              <ZIndex>19</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4608,11 +4210,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>3.35854cm</Top>
+              <Top>4.99896cm</Top>
               <Left>0.00007cm</Left>
               <Height>11pt</Height>
-              <Width>11.70697cm</Width>
-              <ZIndex>28</ZIndex>
+              <Width>10.63051cm</Width>
+              <ZIndex>20</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4635,11 +4237,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>3.7875cm</Top>
-              <Left>11.7318cm</Left>
+              <Top>5.42792cm</Top>
+              <Left>10.73697cm</Left>
               <Height>11pt</Height>
-              <Width>6.19252cm</Width>
-              <ZIndex>29</ZIndex>
+              <Width>7.18735cm</Width>
+              <ZIndex>21</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4660,11 +4262,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>2.93554cm</Top>
+              <Top>4.57596cm</Top>
               <Left>0.00007cm</Left>
               <Height>11pt</Height>
-              <Width>11.70697cm</Width>
-              <ZIndex>30</ZIndex>
+              <Width>10.63051cm</Width>
+              <ZIndex>22</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4687,11 +4289,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>3.35854cm</Top>
-              <Left>11.7461cm</Left>
+              <Top>4.99896cm</Top>
+              <Left>10.75127cm</Left>
               <Height>11pt</Height>
-              <Width>6.18537cm</Width>
-              <ZIndex>31</ZIndex>
+              <Width>7.1802cm</Width>
+              <ZIndex>23</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4712,11 +4314,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>2.53455cm</Top>
+              <Top>4.17497cm</Top>
               <Left>0.00007cm</Left>
               <Height>11pt</Height>
-              <Width>11.70697cm</Width>
-              <ZIndex>32</ZIndex>
+              <Width>10.63051cm</Width>
+              <ZIndex>24</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4740,11 +4342,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>7.14537cm</Top>
+              <Top>8.78579cm</Top>
               <Left>3.20113cm</Left>
               <Height>11pt</Height>
-              <Width>8.5059cm</Width>
-              <ZIndex>33</ZIndex>
+              <Width>7.42566cm</Width>
+              <ZIndex>25</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4767,11 +4369,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>2.53455cm</Top>
+              <Top>4.17497cm</Top>
               <Left>17.50681cm</Left>
               <Height>11pt</Height>
               <Width>0.42466cm</Width>
-              <ZIndex>34</ZIndex>
+              <ZIndex>26</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
                 <PaddingLeft>1pt</PaddingLeft>
@@ -4795,11 +4397,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>2.53455cm</Top>
-              <Left>11.7461cm</Left>
+              <Top>4.17497cm</Top>
+              <Left>10.75127cm</Left>
               <Height>11pt</Height>
-              <Width>5.76071cm</Width>
-              <ZIndex>35</ZIndex>
+              <Width>6.75554cm</Width>
+              <ZIndex>27</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -4821,11 +4423,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>179.0555pt</Top>
-              <Left>332.55518pt</Left>
+              <Top>224.95549pt</Top>
+              <Left>304.35517pt</Left>
               <Height>11pt</Height>
-              <Width>1.19081in</Width>
-              <ZIndex>36</ZIndex>
+              <Width>0.89342in</Width>
+              <ZIndex>28</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -4849,11 +4451,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>190.50554pt</Top>
-              <Left>4.61733in</Left>
+              <Top>236.40553pt</Top>
+              <Left>4.22566in</Left>
               <Height>11pt</Height>
-              <Width>3.02843cm</Width>
-              <ZIndex>37</ZIndex>
+              <Width>2.27306cm</Width>
+              <ZIndex>29</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -4879,11 +4481,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>179.0555pt</Top>
-              <Left>14.75645cm</Left>
+              <Top>225.5555pt</Top>
+              <Left>13.00624cm</Left>
               <Height>11pt</Height>
-              <Width>1.24719in</Width>
-              <ZIndex>38</ZIndex>
+              <Width>1.93625in</Width>
+              <ZIndex>30</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -4909,11 +4511,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>190.50554pt</Top>
-              <Left>14.75645cm</Left>
+              <Top>237.00554pt</Top>
+              <Left>13.00624cm</Left>
               <Height>11pt</Height>
-              <Width>1.24719in</Width>
-              <ZIndex>39</ZIndex>
+              <Width>1.93625in</Width>
+              <ZIndex>31</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -4925,9 +4527,10 @@ Cstr(Fields!CustBalanceCaption.Value)
               <Value>=Convert.ToBase64String(Fields!CompanyInfo1Picture.Value)</Value>
               <MIMEType>image/bmp</MIMEType>
               <Sizing>FitProportional</Sizing>
-              <Height>14mm</Height>
-              <Width>40mm</Width>
-              <ZIndex>40</ZIndex>
+              <Left>0.00281in</Left>
+              <Height>33.07293mm</Height>
+              <Width>35.1158mm</Width>
+              <ZIndex>32</ZIndex>
               <Visibility>
                 <Hidden>=IIF(IsNothing(Fields!CompanyInfo1Picture.Value)=TRUE,TRUE,FALSE)</Hidden>
               </Visibility>
@@ -4942,10 +4545,10 @@ Cstr(Fields!CustBalanceCaption.Value)
               <Value>=Convert.ToBase64String(Fields!CompanyInfo2Picture.Value)</Value>
               <MIMEType>image/bmp</MIMEType>
               <Sizing>FitProportional</Sizing>
-              <Left>7.5cm</Left>
-              <Height>14mm</Height>
-              <Width>40mm</Width>
-              <ZIndex>41</ZIndex>
+              <Left>7.50714cm</Left>
+              <Height>33.07293mm</Height>
+              <Width>35.1158mm</Width>
+              <ZIndex>33</ZIndex>
               <Visibility>
                 <Hidden>=IIF(ISNOTHING(Fields!CompanyInfo2Picture.Value) =  TRUE, TRUE, FALSE)</Hidden>
               </Visibility>
@@ -4960,10 +4563,10 @@ Cstr(Fields!CustBalanceCaption.Value)
               <Value>=Convert.ToBase64String(Fields!CompanyInfo3Picture.Value)</Value>
               <MIMEType>image/bmp</MIMEType>
               <Sizing>FitProportional</Sizing>
-              <Left>14.0475cm</Left>
-              <Height>14mm</Height>
-              <Width>40mm</Width>
-              <ZIndex>42</ZIndex>
+              <Left>14.05464cm</Left>
+              <Height>33.07293mm</Height>
+              <Width>35.1158mm</Width>
+              <ZIndex>34</ZIndex>
               <Visibility>
                 <Hidden>=IIF(ISNOTHING(Fields!CompanyInfo3Picture.Value) =  TRUE, TRUE, FALSE)</Hidden>
               </Visibility>
@@ -4989,10 +4592,10 @@ Cstr(Fields!CustBalanceCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>7.15881cm</Top>
+              <Top>8.79923cm</Top>
               <Height>11pt</Height>
               <Width>3.13051cm</Width>
-              <ZIndex>43</ZIndex>
+              <ZIndex>35</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -5017,11 +4620,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>9.30244cm</Top>
+              <Top>10.94286cm</Top>
               <Left>0.00714cm</Left>
               <Height>27.80009pt</Height>
               <Width>2.04cm</Width>
-              <ZIndex>44</ZIndex>
+              <ZIndex>36</ZIndex>
               <Style>
                 <VerticalAlign>Bottom</VerticalAlign>
                 <PaddingRight>5pt</PaddingRight>
@@ -5047,11 +4650,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>9.30244cm</Top>
+              <Top>10.94286cm</Top>
               <Left>2.04cm</Left>
               <Height>27.80002pt</Height>
-              <Width>1.98767cm</Width>
-              <ZIndex>45</ZIndex>
+              <Width>2.7638cm</Width>
+              <ZIndex>37</ZIndex>
               <Style>
                 <VerticalAlign>Bottom</VerticalAlign>
                 <PaddingLeft>5pt</PaddingLeft>
@@ -5078,11 +4681,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>9.30244cm</Top>
-              <Left>4.02767cm</Left>
+              <Top>10.94286cm</Top>
+              <Left>4.87436cm</Left>
               <Height>27.80009pt</Height>
               <Width>4.20623cm</Width>
-              <ZIndex>46</ZIndex>
+              <ZIndex>38</ZIndex>
               <Style>
                 <VerticalAlign>Bottom</VerticalAlign>
                 <PaddingLeft>5pt</PaddingLeft>
@@ -5109,11 +4712,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>9.30244cm</Top>
-              <Left>8.2339cm</Left>
-              <Height>27.80009pt</Height>
-              <Width>1.9877cm</Width>
-              <ZIndex>47</ZIndex>
+              <Top>10.94286cm</Top>
+              <Left>9.08057cm</Left>
+              <Height>26.61863pt</Height>
+              <Width>2.53803cm</Width>
+              <ZIndex>39</ZIndex>
               <Style>
                 <VerticalAlign>Bottom</VerticalAlign>
                 <PaddingLeft>5pt</PaddingLeft>
@@ -5140,11 +4743,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>9.30244cm</Top>
-              <Left>12.01069cm</Left>
+              <Top>10.90118cm</Top>
+              <Left>13.00624cm</Left>
               <Height>27.80009pt</Height>
-              <Width>1.81547cm</Width>
-              <ZIndex>48</ZIndex>
+              <Width>2.73421cm</Width>
+              <ZIndex>40</ZIndex>
               <Style>
                 <VerticalAlign>Bottom</VerticalAlign>
                 <PaddingLeft>5pt</PaddingLeft>
@@ -5171,48 +4774,15 @@ Cstr(Fields!CustBalanceCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>9.30244cm</Top>
-              <Left>13.89671cm</Left>
+              <Top>10.8659cm</Top>
+              <Left>15.74045cm</Left>
               <Height>27.80009pt</Height>
-              <Width>2.40522cm</Width>
-              <ZIndex>49</ZIndex>
+              <Width>2.31669cm</Width>
+              <ZIndex>41</ZIndex>
               <Style>
                 <VerticalAlign>Bottom</VerticalAlign>
                 <PaddingLeft>5pt</PaddingLeft>
                 <PaddingRight>5pt</PaddingRight>
-              </Style>
-            </Textbox>
-            <Textbox Name="textbox69">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>= Code.GetData(53,1)</Value>
-                      <Style>
-                        <FontFamily>Segoe UI</FontFamily>
-                        <FontSize>8pt</FontSize>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <Top>9.30244cm</Top>
-              <Left>16.30193cm</Left>
-              <Height>27.80009pt</Height>
-              <Width>1.63668cm</Width>
-              <ZIndex>50</ZIndex>
-              <Visibility>
-                <Hidden>true</Hidden>
-              </Visibility>
-              <Style>
-                <VerticalAlign>Bottom</VerticalAlign>
-                <PaddingLeft>5pt</PaddingLeft>
               </Style>
             </Textbox>
             <Textbox Name="Textbox320">
@@ -5232,11 +4802,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox320</rd:DefaultName>
-              <Top>4.04597in</Top>
+              <Top>4.6918in</Top>
               <Left>0.00281in</Left>
               <Height>5pt</Height>
-              <Width>7.05683in</Width>
-              <ZIndex>51</ZIndex>
+              <Width>7.1063in</Width>
+              <ZIndex>42</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -5268,10 +4838,11 @@ Cstr(Fields!CustBalanceCaption.Value)
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox320</rd:DefaultName>
-              <Top>4.11819in</Top>
+              <Top>4.74319in</Top>
+              <Left>0.00281in</Left>
               <Height>5pt</Height>
-              <Width>7.05683in</Width>
-              <ZIndex>52</ZIndex>
+              <Width>7.11618in</Width>
+              <ZIndex>43</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -5301,10 +4872,10 @@ Cstr(Fields!CustBalanceCaption.Value)
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox293</rd:DefaultName>
-              <Top>3.28834in</Top>
+              <Top>3.93417in</Top>
               <Height>10pt</Height>
-              <Width>4.61056in</Width>
-              <ZIndex>53</ZIndex>
+              <Width>4.18527in</Width>
+              <ZIndex>44</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -5602,6 +5173,9 @@ End Function
         <Field Name="CompanyLegalOffice_Lbl">
           <DataField>CompanyLegalOffice_Lbl</DataField>
         </Field>
+        <Field Name="Total_Caption">
+          <DataField>Total_Caption</DataField>
+        </Field>
         <Field Name="Total_Caption2">
           <DataField>Total_Caption2</DataField>
         </Field>
@@ -5676,9 +5250,6 @@ End Function
         </Field>
         <Field Name="CurrencyCode3_CustLedgEntryFooter">
           <DataField>CurrencyCode3_CustLedgEntryFooter</DataField>
-        </Field>
-        <Field Name="Total_Caption">
-          <DataField>Total_Caption</DataField>
         </Field>
         <Field Name="CustBalance_CustLedgEntryHdrFooter">
           <DataField>CustBalance_CustLedgEntryHdrFooter</DataField>
